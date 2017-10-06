@@ -20,7 +20,7 @@
   }
 
   ext.modu = function(val1,val2) {
-      return val % val2;
+      return val%val2;
   }
 
   var descriptor = {
