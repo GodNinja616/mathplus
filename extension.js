@@ -19,10 +19,15 @@
         }
     }
 
+    ext.modu = function(val1, val2) {
+        return val % val2;
+    }
+
     var descriptor = {
         blocks: [
             ['r', 'Map- %n : %n : %n : %n : %n', 'map', 20, 1,0,5,20],
             ['r', 'Value- %m.type', 'val', "PI"],
+            ['r', '%n % %n', 'modu'],
         ],
         menus: {
             type: ['PI', 'PHI', '2PI']
